@@ -1,0 +1,37 @@
+.logIn-title{
+	@extend %title;
+	margin-bottom: 76px;
+}
+.logIn-btn{
+	@extend %btn;
+	margin-top: 60px;
+	margin-bottom: 48px;
+}
+.logIn{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	margin: 100px auto 500px;
+	width: 746px;
+	height: 958px;
+
+
+	background: #FFFFFF;
+	border: 1px solid #C4C4C4;
+	box-sizing: border-box;
+}
+.logIn p{
+	@extend %text;
+	padding: 34px 0 10px 0;
+}
+.logIn input {
+		padding: 15px;
+		background: #FFFFFF;
+		border: 1px solid #C4C4C4;
+		box-sizing: border-box;
+		width: 598px;
+		height: 56px;
+		@extend %text;
+	}

@@ -1,0 +1,242 @@
+
+
+.container__header{
+	width: 100%;
+	background-color: #232323;
+	display: flex;
+	justify-content: center;
+	position: relative;
+
+	&:after{
+		content: "";
+		position: absolute;
+		height: 79px;
+		width: 100%;
+		background: #00B3A6;
+
+		top:140px;
+	}
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	
+	width: 100%;
+	max-width: 1920px;
+	&__properties {
+		display: flex;
+		justify-content: flex-end;
+		padding: 2px 100px 0 0;
+	}
+	&__properties img{
+		background-image: url(../images/EN.png);
+		width: 34px;
+		height: 34px;
+		z-index: 2;
+	}
+
+	&__properties-account {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 20px;
+		line-height: 24px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		
+		color: #FFF;
+
+
+	}
+
+
+	&__properties-account-span{
+		color: #66CC33;
+		text-decoration: underline;
+		margin-right: 33px;
+	}
+
+	&__properties-Language {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 20px;
+		line-height: 24px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+
+		color: #FFFFFF;
+
+
+	}
+
+	&__logo {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		&__search {
+			display: flex;
+			justify-content: center;
+			width: 100%;
+		}
+		&__search__form {
+			display: flex;
+			width: 100%;
+			justify-content: center;
+		}
+
+		&__search__form-input {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 24px;
+			line-height: 28px;
+			/* identical to box height */
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding-left: 26px;
+			width: 28.5%;
+			min-width: 550px;
+
+			background: #9B9B9B;
+		}
+
+		&__search__form-btn {
+			background-color: #66CC33;
+			width: 72.56px;
+			height: 63.03px;
+		}
+
+		&__user {
+			display: flex;
+			justify-content: flex-end;
+			left: 401px;
+			padding-left: 20px;
+			padding-right: 168px; 
+		}
+
+		&__user-account{
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 22px;
+			line-height: 27px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+
+
+			color: #FFF;
+
+			margin-right: 60px;
+			position: relative;
+		}
+		&__user-account li{
+			text-align: center;
+			width: 100px;
+			height: 50px;	
+			padding-top: 10px;
+			border-radius: 10px 10px 0 0;
+			&:hover{
+				background-color: #333;
+			}
+		}
+		
+		&__user-account li ul{
+			position: absolute;
+			top: 50px;
+			background-color: #333;
+			line-height: 2;
+			display: none;
+			text-align: center;
+
+			z-index: 100;
+
+		}
+		&__user-account ul li{
+			display: block;
+			width: 100px;
+			height: 50px;
+		}
+		&__user-account li:hover ul{
+			display: block;
+		}
+
+		&__user a{
+			color:#FFF;
+			transition: 0.5s;
+			&:hover{
+				color: #66CC33;
+
+			}
+		}
+		
+
+		&__user-basket {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		line-height: 27px;
+		display: flex;
+		align-items: center;
+
+		color: #FFFFFF;
+		}
+	}
+	
+	&__logo-log {
+		font-family: Scada;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 48px;
+		line-height: 60px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #fff;
+
+		padding-left: 100px;
+		padding-right: 20px;
+	}
+
+	&__logo-log-span{
+		color: #66CC33;
+	}
+}
+
+.nav {
+	display: flex;
+	justify-content: space-around;
+	height: 81px;
+	width: 100%;
+	margin-top: 38px;
+	z-index: 2;
+	&_items {
+		font-family: Scada;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 36px;
+		line-height: 44px;
+		display: flex;
+		align-items: center;
+		text-transform: uppercase;
+		justify-content: center;
+			
+		width: 20%;
+
+		color: #000000;
+		
+		transition: .5s;
+
+		&:hover{
+			color: #fff;
+		}
+	}
+}

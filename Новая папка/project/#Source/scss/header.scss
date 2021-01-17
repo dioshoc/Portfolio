@@ -1,0 +1,74 @@
+.header {
+	background-color: #dcdcdc;
+		z-index: 1000;
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		padding: 60px 0;
+		position: relative;
+		z-index: 1000;
+	}
+}
+.header-logo {
+	display: flex;
+	padding: 5px 0;
+	&__img {
+		display: block;
+		width: 100px;
+		height: 100px;
+		background-color: #000;
+		margin-right: 15px;
+		cursor: pointer;
+	}
+	&__name {
+		padding-top: 5px;
+	}
+}
+.header-name {
+	&__title {
+		font-size: 24px;
+		font-weight: 700;
+		max-width: 150px;
+		padding-bottom: 20px;
+	}
+	&__subtitle {}
+}
+.header-communication {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: 5px 0;
+
+	&__telephone {
+		font-family: 'Open Sans', sans-serif;
+		line-height: 1;
+		max-width: 360px;
+		font-size: 40px;
+		font-weight: 300;
+		padding-bottom: 10px;
+	}
+	&_btn {
+		display: inline-block;
+
+		font-size: 24px;
+		font-weight: 700;
+		color: black;
+
+		padding-bottom: 1px;
+
+		border-bottom: 3px dotted #000;
+	}
+}
+
+@media (max-width: 375px){ 
+	.header-communication__telephone{
+		font-size: 38px;
+	}
+}
+
+@media (max-width: 355px){ 
+	.header-communication__telephone{
+		font-size: 32px;
+	}
+}

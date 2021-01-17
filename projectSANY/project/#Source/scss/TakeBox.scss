@@ -1,0 +1,203 @@
+.tekeBox {
+	&__nav {
+		@extend %text;
+		justify-content: space-between;
+		max-width: 330px;
+		margin-top: 15px;
+	}
+}
+.takeBox {
+	&__nav-text {
+		transition: 0.5s;
+		text-decoration: none;
+		color: #000;
+		&:hover{
+			color: #00B3A6;
+		}
+	}
+}
+.active{
+	color: #00B3A6;
+}
+.takeBox {
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 100px;
+		&__subscription {
+			display: flex;
+			flex-direction: column;
+			width: 620px;
+		}
+		&__subscription-title {
+			font-family: Scada;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 48px;
+			line-height: 60px;
+			display: flex;
+			align-items: center;
+			
+			width: 373px;
+
+			color: #000000;
+		}
+		&__subscription-cost {
+			font-family: Scada;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 48px;
+			line-height: 60px;
+			display: flex;
+			align-items: center;
+			
+			padding-top: 20px;
+
+			color: #000000;
+		}
+		&__subscription__form {}
+		&__subscription__form__slider select{
+			width: 620px;
+			height: 91px;
+			background: #FFFFFF;
+			border: 1px solid #C4C4C4;
+			box-sizing: border-box;
+			border-radius: 7px;
+			padding: 15px;
+
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: 300;
+			font-size: 36px;
+			line-height: 42px;
+			display: flex;
+			align-items: center;
+
+			color: #000000;
+		}
+		&__subscription__form__slider-text {
+			@extend %text;
+		}
+		&__subscription__form__subscribe {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 620px;
+			height: 197px;
+			
+			margin: 56px auto 24px;
+
+			background: #FFFFFF;
+			border: 5px solid #000000;
+			box-sizing: border-box;
+		}
+		&__subscription__form__subscribe-checkbox {
+			width: 74px;
+			height: 74px;
+			margin-right: 35px;
+		}
+		&__subscription__form__subscribe__input {}
+		&__subscription__form__subscribe__input-title {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: 300;
+			font-size: 36px;
+			line-height: 42px;
+			display: flex;
+			align-items: center;
+
+			color: #000000;
+
+		}
+		&__subscription__form__subscribe__input-subtitle {
+			display: flex;
+			max-width: 458px;
+			flex-wrap: wrap;
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: 300;
+			font-size: 28px;
+			line-height: 33px;
+			display: flex;
+			align-items: center;
+			
+
+
+			color: #000000;
+		}
+		&__subscription__form__slider-btn {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-family: Roboto;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 36px;
+				line-height: 42px;
+				text-transform: uppercase;
+				color: #000000;
+
+				border: #00B3A6 solid;
+				background: #00B3A6;
+				
+				height: 92px;
+				margin: 0 auto;
+				margin-top: 50px;
+				transition: 0.5s;
+
+				&:hover{
+					background-color: #fff;
+				}
+		}
+		&__subscription-text {
+			padding: 15px 0;
+			@extend %text;
+		}
+	}
+	&__top-img {
+		display: block;
+		width: 768px;
+		height: 768px;
+		background-color: #000;
+
+	}
+}
+.takeBox {
+	&__main {}
+	&__main-title {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 36px;
+		line-height: 42px;
+		display: flex;
+		align-items: center;
+
+		color: #000000;
+	}
+	&__main-text {
+		display: flex;
+		flex-direction: column;
+
+		width: 1534px;
+		height: 608px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		line-height: 33px;
+		display: flex;
+		
+	}
+	&__main-text p{
+		padding: 20px 0;
+	}
+
+	&-reviews {
+		display: block;
+		width: 1497px;
+		height: 592px;
+		background-color: #333;
+		margin: 20px auto;
+	}
+}

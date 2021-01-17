@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+header {
+  margin: 0 auto;
+  background-color: #262626;
+  width: 100%;
+}
+
+footer {
+  background-color: #262626;
+  width: 100%;
+}
+
+.header {
+  max-width: 70%;
+  margin: auto;
+}
+.header__logo {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.header__logo-img {
+  font-family: "Pacifico", cursive;
+  font-size: 28px;
+  padding: 32px;
+}
+.header__nav {
+  padding-top: 45px;
+}
+.header__nav-itmes {
+  display: inline-block;
+  margin: 0 25px;
+}
+.header__nav-links {
+  font-size: 13px;
+  font-weight: 900;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  transition: linear 0.5s;
+}
+.header__nav-links:hover {
+  color: #ff6760;
+}
+.header__inner {
+  background-color: #2a2a2a;
+  text-align: center;
+  color: #d9d9d9;
+}
+.header__inner-title {
+  padding-top: 60px;
+  font-size: 60px;
+}
+.header__inner-Webpaint {
+  font-weight: 900;
+}
+.header__inner-subtitle {
+  display: block;
+  margin: 0 auto;
+  max-width: 58%;
+  font-size: 40px;
+}
+.header__btn {
+  display: inline-block;
+  justify-content: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 20px 45px;
+  border-radius: 5px;
+  margin: 60px 0;
+  background-color: #ff6760;
+  transition: 0.5s;
+}
+.header__btn:hover {
+  background-color: #595959;
+}
+.header__content-bg {
+  background-color: #f8f8f8;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 70%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.header__content-items {
+  opacity: 0.6;
+  text-align: center;
+  padding: 95px 15px;
+  color: #616161;
+  max-width: 260px;
+}
+.header__content-title {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1.7;
+}
+
+.ourFeatured {
+  text-align: center;
+}
+.ourFeatured__title {
+  padding-top: 65px;
+  font-size: 30px;
+  font-weight: 900;
+  color: #616161;
+}
+.ourFeatured__subtitle {
+  padding-top: 25px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #616161;
+}
+.ourFeatured__butons {
+  padding-top: 65px;
+}
+.ourFeatured__btn {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #ff6760;
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin: 4px;
+  transition: 0.5s;
+}
+.ourFeatured__btn:hover {
+  background-color: #595959;
+}
+.ourFeatured__img {
+  max-width: 70%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+.ourFeatured__img-items {
+  margin: 5px;
+}
+
+.contact {
+  background-color: #313131;
+  text-align: center;
+  padding: 60px;
+}
+.contact__title {
+  font-size: 30px;
+  font-weight: 900;
+  color: #fff;
+}
+.contact__subtitle {
+  padding: 25px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+}
+.contact__adress {
+  display: inline-block;
+  color: #fff;
+  padding-right: 20px;
+}
+.contact__phone {
+  display: inline-block;
+  color: #fff;
+}
+.contact__clab {
+  padding-top: 25px;
+}
+
+.register {
+  color: #fff;
+  text-align: center;
+  opacity: 0.7;
+  padding: 30px;
+}

@@ -1,0 +1,17 @@
+.main {
+  width: 100%;
+}
+.main__slider__top {
+  display: block;
+  position: relative;
+  width: 1720px;
+  height: 521.73px;
+  background-color: #s333;
+}
+.main__midle__hot-itmes {
+  display: flex;
+  justify-content: space-between;
+  width: 506px;
+  height: 402px;
+  background: #C4C4C4;
+}

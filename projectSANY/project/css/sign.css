@@ -1,0 +1,140 @@
+.signIn {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1720px;
+  margin: 160px auto;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #C1C1C1;
+  width: 746px;
+  height: 590px;
+}
+
+.login-logo {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  color: #000000;
+}
+
+.login p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.login input {
+  width: 598px;
+  height: 56px;
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  margin-bottom: 35px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.login-password {
+  display: block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+
+.login-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #000000;
+  border: #00B3A6 solid;
+  background: #00B3A6;
+  width: 375px;
+  height: 74px;
+  margin: 0 auto;
+  margin-top: 50px;
+  transition: 0.5s;
+}
+.login-btn:hover {
+  background-color: #fff;
+}
+
+.new {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 746px;
+  height: 220px;
+  border: 1px solid #C1C1C1;
+}
+
+.new-logo {
+  display: block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: #000000;
+}
+
+.new-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  width: 375px;
+  height: 74px;
+  background-color: #000;
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.new-btn:hover {
+  background-color: #fff;
+  color: #000;
+}

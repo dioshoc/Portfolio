@@ -1,0 +1,151 @@
+body {
+  position: fixed;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #232323;
+  padding-bottom: 38px;
+  max-width: 100%;
+}
+.header__properties {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2px 134px 0 0;
+}
+.header__properties-account {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+}
+.header__properties-account-span {
+  color: #66CC33;
+  text-decoration: underline;
+  margin-right: 33px;
+}
+.header__properties-Language {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  width: 174px;
+  height: 45px;
+}
+.header__logo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header__logo__search {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.header__logo__search__form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.header__logo__search__form-input {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 26px;
+  width: 28.5%;
+  min-width: 550px;
+  background: #9B9B9B;
+}
+.header__logo__search__form-btn {
+  background-color: #66CC33;
+  width: 72.56px;
+  height: 63.03px;
+}
+.header__logo__user {
+  display: flex;
+  justify-content: flex-end;
+  left: 401px;
+  padding-left: 20px;
+  padding-right: 168px;
+}
+.header__logo__user-account {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  padding-right: 60px;
+}
+.header__logo__user a {
+  color: #FFF;
+}
+.header__logo__user-basket {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.header__logo-log {
+  font-family: Scada;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding-left: 100px;
+  padding-right: 20px;
+}
+.header__logo-log-span {
+  color: #66CC33;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background: #00B3A6;
+  height: 81px;
+}
+.nav_items {
+  font-family: Moul;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  justify-content: center;
+  width: 20%;
+  color: #000000;
+  transition: 0.5s;
+}
+.nav_items:hover {
+  color: #fff;
+}

@@ -1,0 +1,88 @@
+// Импортированные файлы
+
+@import "nullestyle.scss";
+@import "header.scss";
+@import "footer.scss";
+@import "main.scss";
+@import "sign.scss";
+@import "logIn.scss";
+@import "TakeBox.scss";
+@import "basket.scss";
+@import "geekShop.scss";
+
+// Шрифты
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&family=Scada:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scada:wght@400;700&display=swap');
+
+// Шаблоны
+%title{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 56px;
+	display: flex;
+	align-items: center;
+}
+
+%btn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	color: #000000;
+
+	border: #00B3A6 solid;
+	background: #00B3A6;
+	width: 375px;
+	height: 74px;
+	margin: 0 auto;
+	margin-top: 50px;
+	transition: 0.5s;
+
+	&:hover{
+		background-color: #fff;
+	}
+}
+
+%text{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 28px;
+	display: flex;
+	
+
+	color: #000000;
+}
+
+%bigText{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 28px;
+	line-height: 33px;
+
+	color: #000000;
+
+}
+
+// Документы
+body{
+
+	font-size: 30px;	
+}
+
+.container{ 
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1720px;
+}

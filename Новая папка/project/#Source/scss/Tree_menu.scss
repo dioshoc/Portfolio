@@ -1,0 +1,32 @@
+.tree {
+	&__inner {
+
+	}
+}
+.container {
+}
+.tree-items {
+	display: flex;
+
+	&__item {
+		text-decoration: underline;
+		margin-right: 20px;
+		position: relative;
+		color: #000;
+	}
+	&__item:after{
+		content: "";
+		height: 1px;
+		width: 14px;
+		background-color: #000;
+		position: absolute;
+		transform:rotate(110deg);
+		top: 11px;
+		right: -17px;
+	}
+
+	&__item:last-child {
+		text-decoration: none;
+	}
+	
+}
