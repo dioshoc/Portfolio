@@ -1,0 +1,145 @@
+/** Start Droodown Header Contact **/
+.header__contact-dropdown__contact-dorp
+    z-index: 90
+    max-width: 1140px
+    width: 100%
+    background-color: #fff
+    color: $linkBlack
+    left: -20px
+    padding: 20px
+    height: 350px
+    &__img
+        width: 25px
+    &__map
+        position: absolute
+        width: 100%
+        height: 250px
+        object-fit: contain
+        z-index: 1
+
+    &__title
+        border: 1px solid #000
+        cursor: pointer
+        transition: 0.3s
+        padding: 10px
+        text-align: center
+        &:hover
+            background-color: $BgGray
+    &__items
+        display: flex
+        flex-direction: column
+        justify-content: center
+        padding: 0
+        &-item
+            width: 200px
+            padding-left: 15px
+            margin: 15px 0
+
+.header__contact-dropdown__about
+    z-index: 10
+/** End Droodown Header Contact **/
+/** Satrt Droodown Menu Contact **/
+.catalog-drop
+
+    z-index: 90
+    background-color: #fff
+
+.catalog-menu
+    display: flex
+    flex-direction: column
+    width: 300px
+
+    border: 1px solid $BgGray
+    border-radius: 10px
+    padding: 0
+    background-color: #fff
+    z-index: 90
+    &__item
+        z-index: 90
+        display: flex
+        flex-direction: column
+        position: relative
+        width: 300px
+        border: 1px solid $BgGray
+        padding: 10px
+        cursor: pointer
+        background-color: #fff
+        &:hover
+            background-color: $BgGray
+        &:first-child
+            border-radius: 10px 10px 0 0
+        &:last-child
+            border-radius: 0 0 10px 10px
+
+.catalog-menu__dropdown
+    &__first
+        position: absolute
+        width: 200px
+        list-style-type: none
+        right: -200px
+        top: -1px
+        background-color: #fff
+        &-item
+            cursor: pointer
+            z-index: 90
+            border: 1px solid $BgGray
+            padding: 10px
+            background-color: #fff
+            &:first-child
+                border-radius: 10px 10px 0 0
+            &:last-child
+                border-radius: 0 0 10px 10px
+            &:hover
+                background-color: $BgGray
+    &__second
+        position: absolute
+        width: 200px
+
+        right: -200px
+        top: -0px
+        &-item
+            cursor: pointer
+            z-index: 90
+            border: 1px solid $BgGray
+            padding: 10px
+            background-color: #fff
+            &:first-child
+                border-radius: 10px 10px 0 0
+            &:last-child
+                border-radius: 0 0 10px 10px
+            &:hover
+                background-color: $BgGray
+
+.catalog-menu__dropdown__first-item .active
+    color: $red
+.catalog-menu__dropdown__second-item .active
+    color: $red
+/** End Droodown Menu Contact **/
+@media ( max-width: 1200px )
+    .header__contact-dropdown__about
+        position: relative !important
+        background-color: #fff
+    .header__contact-dropdown__contact-dorp
+        padding: 0
+        left: 0
+        position: relative!important
+        overflow: auto
+
+@media ( max-width: 798px )
+    .catalog-menu
+        margin: 0
+        width: 100%
+        &__item
+            width: 100%
+            &:hover
+                background: #f1f1f1
+    .catalog-menu__dropdown
+        position: relative!important
+        &__first
+            position: relative
+            width: 100%
+            right: 0
+        &__second
+            position: relative
+            width: 100%
+            right: 0

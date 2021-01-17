@@ -1,0 +1,33 @@
+.catalog
+
+    &__content-title
+        border: 1px solid $BgGray
+        background-color: #fff
+        padding: 15px 10px
+        width: 300px
+        border-radius: 5px
+        margin-top: -15px
+.catalog-content
+
+    &__modules
+
+        display: grid
+        grid-template-columns: repeat(auto-fill, minmax(300px, 3fr))
+
+        &-item
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            cursor: pointer
+            transition: 0.3s
+            margin: 35px
+            padding: 5px
+            &:hover
+                box-shadow: 0px 3px 5px 0px $BgGray
+                a
+                    color: $red
+            a
+                color: $linkBlack
+        img
+            width: 150px

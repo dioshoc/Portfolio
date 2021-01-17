@@ -1,0 +1,90 @@
+.BI {
+	background-color: #f5f5f8;
+
+	&__inner {
+		padding-top: 140px;
+		text-align: center;
+		padding-bottom: 130px;	
+	}
+}
+.container {
+}
+.BI-title {
+	margin-bottom: 100px;
+	position: relative;
+}
+.BI-title:after{
+	content: "";
+	position: absolute;
+	
+	width: 100%;
+	max-width: 50px;
+	height: 2px;
+	background-color: #267df4;
+	top: 100px;
+	left: 49%;
+	right: 45%;
+}
+.BI-text {
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-bottom: 50px;
+	
+}
+.BI__inner .owl-carousel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 1600px;
+
+	position: relative;
+	z-index: 2200;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+.BI__inner .owl-carousel:after {
+	content: "";
+	width: 100%;
+	height: 135%;
+	background: url("../images/slidr/iPhone_bg.png") center no-repeat;
+	position: absolute;
+	top: -90px;
+	left: 0;
+	z-index: 1;
+}
+
+.BI-item {
+	max-width: 320px;
+	min-width: 320px;
+	padding: 10px;
+}
+.owl-stage-outer{
+	z-index: 100;
+}
+
+
+@media (max-width: 320px){
+	.BI-title:after{
+		top: 150px;
+	}
+	.owl-carousel:after{
+		width: 100%;
+	}
+	.BI-item {
+		max-width: 320px;
+		min-width: 320px;
+		padding: 0px;
+	}
+}
+@media (max-width: 767px){
+	.BI-title:after{
+		left: 47%;
+	}
+}
+
+@media (max-width: 1200px){
+	.BI-title:after{
+		left: 48%;
+	}
+}
+

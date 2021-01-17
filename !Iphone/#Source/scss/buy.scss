@@ -1,0 +1,79 @@
+.buy {
+	padding-top: 70px;
+	background-color: #f5f5f8;
+	&__inner {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+.buy-subtitle {
+	font-weight: 700;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+.buy-title {
+	margin-top: 5px;
+	margin-bottom: 50px;
+}
+.buy-form{
+	max-width: 500px;
+	width: 100%;
+	position: relative;
+	margin-bottom: 60px;
+}
+.buy-input {
+	font-size: 16px;
+	font-weight: 700;
+	border: 1px solid #a2a4a8;
+	background-color: none;
+	border-radius: 50px;
+	width: 100%;
+	
+	padding: 20px;
+}
+.buy-formBtn {
+	position: absolute;
+	padding: 15px 30px;
+
+	background-color: #6fc754;
+	color: #fff;
+
+	top: 5px;
+	right: 5px;
+}
+.buy-img {
+	margin-left: 15px;
+	height: 20px;
+	width: 20px;
+}
+.buy-appleLogo {
+	width: 30px;
+	height: 30px;
+}
+.buy-appStore{
+	font-size: 23px;
+}
+.appStore-btn {
+	display: flex;
+	
+	font-size: 12px;
+	color: #fff;
+	background-color: #000;
+	max-width: 210px;
+	margin-bottom: 130px;
+	padding: 15px 30px;
+}
+
+@media (max-width: 767px){
+	.buy {
+		&__inner {
+			text-align: center;
+		}
+	}
+	.buy-formBtn {
+		position: relative;
+	}
+}

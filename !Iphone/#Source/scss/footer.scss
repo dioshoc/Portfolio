@@ -1,0 +1,175 @@
+.footer {
+
+
+	&__inner {
+		border-top: 1px solid #f4f4f4;
+		padding-top: 90px;
+	}
+	&__main{
+		display: flex;
+	}
+	&__clabs {
+		width: 50%;	
+		margin-bottom: 130px;
+	}
+	&__clabs-title {
+		text-transform: uppercase;
+		color: #000;
+		margin-bottom: 30px;
+		&_span {
+			font-weight: 700;
+		}
+	}
+	&__clabs-text {
+		font-size: 14px;
+		margin-bottom: 30px;
+		max-width: 270px;
+	}
+	&__clabs-items {
+		display: flex;
+		justify-content: space-between;
+		max-width: 270px;
+		&_item {
+			margin-right: 5px;
+		}
+		&_item:last-child {
+			margin-right: 0;
+		}
+	}
+	&__clabs-img {
+		width: 20px;
+		height: 20px;
+	}
+	&__answers {
+		display: flex;
+		font-size: 16px;
+	}
+	&__answers-item {
+		display: flex;
+		flex-direction: column;
+		line-height: 2;
+		margin-right: 60px;
+		&_title {
+			text-transform: uppercase;
+			font-weight: 700;
+			color:#000;
+		}
+		&_link {
+			color: #8c8f94;
+		}
+	}
+	&__answers-item:last-child {
+		margin-right: 0;
+	}
+
+
+	&__bottom {
+		border-top: 1px solid #f4f4f4;
+		display: flex;
+		justify-content: space-between;
+		padding: 30px 0;
+	}
+	&__bottom-more {
+		font-size: 14px;
+		margin-right: 10px;
+		&_link {
+			color: blue;
+			font-weight: 700;
+			text-decoration: underline;
+		}
+	}
+	&__bottom-made {
+		color:#000;
+		text-transform: uppercase;
+		font-size: 9px;
+		font-weight: 700;
+		margin-top: 5px;
+		&_logo{
+			margin-left: 10px;
+			margin-top: -15px;
+		}
+	}
+}
+
+
+
+.footer-appStore-btn{
+	display: flex;
+	
+	font-size: 12px;
+	color: #fff;
+	background-color: #000;
+	max-width: 145px;
+	max-height: 42px;
+	padding: 5px;
+
+	border-radius: 5px;
+	line-height: 1;
+
+	margin-bottom: 40px;
+}
+.footer-appleLogo {
+	width: 25px;
+	height: 25px;
+}
+.footer-appStore{
+	font-size: 20px;
+}
+@media (max-width: 992px){
+	.footer{
+		&__inner{
+			padding-top: 0px;
+		}
+		&__main{
+			flex-wrap: wrap;
+		}
+		&__clabs{
+			margin-bottom: 50px;
+		}
+		&__bottom{
+			margin-top: 50px;
+			width: 100%;
+			flex-wrap: wrap;
+		}
+	}
+}
+@media (max-width: 767px){
+	.footer{
+
+		&__main{
+			flex-wrap: wrap;
+			margin-left: 20px;
+		}
+
+		&__answers{
+			width: 100%;
+			flex-wrap: wrap;
+		}
+
+		&__bottom{
+			flex-wrap: wrap;
+		}
+		&__bottom-more{
+			margin-bottom: 20px;
+		}
+	}
+}
+
+@media (max-width: 465px){
+		.footer{
+			&__answers-item{
+				width: 100%;
+				margin: 0;	
+				margin-bottom: 30px;
+				text-align: center;
+			}
+			&__clabs{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+				width: 100%;
+			}
+		}
+}

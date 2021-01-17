@@ -1,0 +1,106 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Varela+Round&display=swap');
+
+//Null
+@import "nullestyle.scss";
+
+
+//Body
+body{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #a2a4a8;
+	line-height: 1.2;
+}
+body a{
+	color: #26272d;
+	text-decoration: none;
+}
+button{
+	background: none;
+}
+
+.container{
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.title{
+	color: #26272d;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 42px;
+	font-weight: 700;
+}
+
+.btn{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+
+	border: 1px solid #d9dcde;
+	border-radius: 50px 50px 50px 50px;
+
+}
+
+.blue_btn{
+	display: inline-block;
+	border: 1px solid #267df4;
+	border-radius: 50px 50px 50px 50px;
+	background-color: #267df4;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+
+}
+
+a.disabled  { 
+	pointer-events: none;
+	opacity: 0.6; 
+}
+
+
+//header
+@import "header.scss";
+// features
+@import "features.scss";
+// iPhone Features
+@import "iPhone-features.scss";
+// Map
+@import "map.scss";
+//Beatiful Interface
+@import "Beatiful Interface.scss";
+//customers
+@import "customers.scss";
+// Buy
+@import "buy.scss";
+//Plan
+@import "plan.scss";
+//Plan Button
+@import "plan_btn.scss";
+// Subscribe
+@import "subscribe.scss";
+// Footer
+@import "footer.scss";
+
+@media (max-width: 992px) {
+	.container{
+		max-width: 750px;
+	}
+	.item{
+		margin-right: 12px;
+	}
+}
+@media (max-width: 767px) {
+	.container{
+		max-width: none;
+		padding: 0;
+	}
+}
+
+
